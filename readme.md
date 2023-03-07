@@ -12,6 +12,6 @@ Il programma inizia chiedendo all'utente di selezionare la lingua di destinazion
 
 L'applicazione ascolta l'audio dal microfono, lo memorizza in una variabile e lo traduce utilizzando l'API di Google. La domanda tradotta viene quindi passata all'API di OpenAI, che genera una risposta.
 
-La risposta viene quindi convertita in un file audio utilizzando gtts, salvata con un nome specificato dall'utente e riprodotta utilizzando pygame.
+La risposta viene quindi convertita in un file audio utilizzando gtts, e riprodotta utilizzando pygame.
 
 Infine, il programma scrive i dati audio in un file .wav utilizzando il metodo get_wav_data() e lo salva nella directory di lavoro corrente
