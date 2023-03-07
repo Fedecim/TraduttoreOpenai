@@ -3,12 +3,11 @@
 Il codice è scritto in Python e utilizza diverse librerie per creare un'applicazione che consente di tradurre le parole pronunciate dall'utente in tempo reale utilizzando l'API di Google e OpenAI.
 
 In particolare, le librerie utilizzate sono:
-
-    speech_recognition per rilevare e interpretare il parlato da un flusso audio
-    openai per utilizzare l'API di OpenAI
-    os per interagire con il sistema operativo
-    gtts per generare file audio a partire da testo
-    pygame per riprodurre i file audio generati
+- speech_recognition per rilevare e interpretare il parlato da un flusso audio
+- openai per utilizzare l'API di OpenAI
+- os per interagire con il sistema operativo
+- gtts per generare file audio a partire da testo
+- pygame per riprodurre i file audio generati
 
 Il programma inizia chiedendo all'utente di selezionare la lingua di destinazione per la traduzione. Successivamente, viene chiesto di premere un tasto per iniziare a registrare la voce dell'utente.
 
